@@ -210,13 +210,35 @@ body {
     color: midnightblue;
 }
 
+/*Seccion 2*/
+
+.section4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-image: url('../img/JPG/Fondo_años.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 14rem 0;
+}
+
+.container-section4{
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
+
+.container-section4__text{
+    font-size: 2rem;
+    text-align: justify;
+}
+
 
 /*Estilos de Footer*/
 .footer{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding: 1rem 0;
-    margin-top: 2rem;
+    margin-top: 0%;
 }
 
 .footer__img{

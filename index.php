@@ -43,27 +43,37 @@
      </section>
 
 
-     <!--Seccion Carrusel -->
-     <section class="section3">
-     <div class="swiper mySwiper">
-       <div class="swiper-wrapper">
-         <div class="swiper-slide">
-            <img src="assets/img/JPG/Servicio 1.jpg" />
-         </div>
-         <div class="swiper-slide">
-            <img src="assets/img/JPG/Servicio 2.jpg"/>
-         </div>
-         <div class="swiper-slide">
-            <img src="assets/img/JPG/Servicio 3.jpg" />
-          </div>
-        <div class="swiper-slide">
-            <img src="assets/img/JPG/Servicio 4.jpg"/>
-         </div>
+    <!--Seccion Carrusel -->
+    <section class="section3">
+      <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+           <div class="swiper-slide">
+             <img src="assets/img/JPG/Servicio 1.jpg" />
+           </div>
+           <div class="swiper-slide">
+             <img src="assets/img/JPG/Servicio 2.jpg"/>
+           </div>
+           <div class="swiper-slide">
+             <img src="assets/img/JPG/Servicio 3.jpg" />
+            </div>
+          <div class="swiper-slide">
+             <img src="assets/img/JPG/Servicio 4.jpg"/>
+           </div>
        </div>
-      <div class="swiper-scrollbar"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-     </section>
+       <div class="swiper-scrollbar"></div>
+       <div class="swiper-pagination"></div>
+     </div>
+    </section>
+
+    <section class="section4">
+      <div class="container-section4">
+         <p class="container-section4__text">
+             Somos un equipo de profesionales altamente comprometido en dar soluciones logísticas,
+             somos reconocidos por innovar procesos en la cadena de suministros, optimizando
+             tiempos y recursos operativos de: almacenamiento, traslado y control de inventarios.
+         </p>
+      </div>
+    </section>
    </main>
 <?php include('template/footer.php') ?>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
