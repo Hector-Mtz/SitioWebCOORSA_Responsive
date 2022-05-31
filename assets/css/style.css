@@ -10,9 +10,11 @@ body {
   }
   
   /* header */
+
+
   
   .header {
-    background: transparent;
+    background-image: url('../img/JPG/Header.jpg');
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -36,7 +38,7 @@ body {
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #f4f4f4;
+    background-color: #343434;
   }
   
   .header .logo {
@@ -165,6 +167,18 @@ body {
     margin-right: 3rem;
 }
 
+.container-seccion1__button
+{
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  grid-column: 3/4;
+  grid-row: 4/5;
+  width: 60%;
+  height:34%;
+  margin-top: 5%;
+}
+
 /*Conjunto botones*/
 .section1__buttons{
     grid-row: 6/7;
@@ -219,7 +233,7 @@ body {
     background-image: url('../img/JPG/Fondo_años.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 14rem 0;
+    padding: 19rem 0;
 }
 
 .container-section4{
@@ -228,10 +242,157 @@ body {
 }
 
 .container-section4__text{
-    font-size: 2rem;
+    font-size: 21.5px;
     text-align: justify;
 }
 
+
+
+/*Seccion 5*/
+.section5{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  background-image:url('../img/JPG/Fondo_Insigths.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:  2rem 3rem;
+  width: 100%;
+}
+
+.container-section5{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  align-content: center;
+}
+
+.container-section5__titulo{
+  color:midnightblue; 
+  font-size: 2rem;
+  margin-left: 9rem;
+  margin-top: 0.5rem;
+}
+
+.container-section5__text{
+  margin-left: 7.6rem;
+}
+
+/*Seccion 6*/
+.section6{
+  height: 130%;
+}
+
+/*Seccion 7*/
+.section7{
+  background-image:url('../img/JPG/Fondo_clientes.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-section7{
+  grid-column: 1/2;
+}
+
+
+/*Seccion 1 Conocenos*/
+.section1--conocenos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr);
+    background-image: url('../img/JPG/Misión\ y\ vision.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:  1rem 0;
+}
+
+.section1--conocenos__titulo{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  text-align: center;
+  color: midnightblue;
+}
+
+.section1--conocenos__vision{
+  grid-row: 4/5;
+  text-align: center;
+  color: midnightblue;
+}
+
+.section1--conocenos__vision_text{
+  grid-row: 5/6;
+ text-align: justify;
+ margin-left: 10%;
+ font-size: 1rem;
+}
+
+.section1--conocenos__mision{
+  grid-column: 3/4;
+  grid-row: 4/5;
+  text-align: center;
+  color: midnightblue;
+  margin-right: 10%;
+
+}
+
+.section1--conocenos__mision_text{
+  grid-column: 3/4;
+  grid-row: 5/6;
+  text-align: justify;
+  color: midnightblue;
+  margin-right: 10%;
+}
+
+/*Seccion 2 Conocenos*/
+.section2--conocenos{
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+
+.section2--conocenos__titulo1{
+  margin-left: 3%;
+}
+
+.section2--conocenos__titulo2{
+  grid-row: 2/3;
+  color: midnightblue;
+  margin-left: 2%;
+}
+
+.section2--conocenos__text{
+  grid-row: 3/4;
+  margin-left: 2%;
+}
+
+
+/*Seccion 3 Conocenos*/
+.section3--conocenos{
+ display: grid;
+ height: 220%;
+ width: 100%;
+}
+
+/*Seccion 4 Conocenos*/
+.section4--conocenos{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  background-image: url('../img/JPG/Misión\ y\ vision.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:  1rem 0;
+}
+
+.section4--conocenos__conteiner{
+  grid-row: 2/3;
+  text-align: justify;
+  margin-left: 62%;
+}
+
+.section4__title{
+  color:midnightblue ;
+}
 
 /*Estilos de Footer*/
 .footer{

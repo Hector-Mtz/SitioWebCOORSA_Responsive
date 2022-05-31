@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COORSA MEXICO</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <!--Slider-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="assets/css/style_Slider.css">
-
-    <!-- Bootstrap -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</head>
-
 <body>
 <?php include('template/cabecera.php') ?>
    <main>
@@ -24,6 +6,8 @@
          <div class="container-seccion1">
              <h1 class="container-seccion1__texto">Ideamos soluciones innovadoras de logística para tí y tu empresa.</h1>
          </div>
+
+         <button class="container-seccion1__button">Contactanos</button>
 
          <div class="section1__buttons">
              <img class="section1__buttons__img" src="assets/img/PNG/Logo_Blanco_Linkedin.png" alt="logo1">
@@ -44,7 +28,7 @@
 
 
     <!--Seccion Carrusel -->
-    <section class="section3">
+    <section class="section3" >
       <div class="swiper mySwiper">
          <div class="swiper-wrapper">
            <div class="swiper-slide">
@@ -59,12 +43,28 @@
           <div class="swiper-slide">
              <img src="assets/img/JPG/Servicio 4.jpg"/>
            </div>
+           <div class="swiper-slide">
+             <img src="assets/img/JPG/Servicio 5.jpg"/>
+           </div>
+           <div class="swiper-slide">
+             <img src="assets/img/JPG/Servicio 6.jpg"/>
+           </div>
+           <div class="swiper-slide">
+             <img src="assets/img/JPG/Servicio 7.jpg"/>
+           </div>
+           <div class="swiper-slide">
+             <img src="assets/img/JPG/Servicio 8 .jpg"/>
+           </div>
+           <div class="swiper-slide">
+             <img src="assets/img/JPG/Servicio 9 .jpg"/>
+           </div>
        </div>
        <div class="swiper-scrollbar"></div>
        <div class="swiper-pagination"></div>
      </div>
     </section>
 
+    <!--Seccion Años -->
     <section class="section4">
       <div class="container-section4">
          <p class="container-section4__text">
@@ -74,9 +74,70 @@
          </p>
       </div>
     </section>
+    
+    <!--Seccion Insights -->
+    <section class="section5">
+      <div class="container-section5">
+         <h2 class="container-section5__titulo">INSIGHTS</h2>
+         <h5 class="container-section5__text">Soluciones efectivas.</h5>
+      </div>
+    </section>
+
+    <!--Seccion Insigths IMGS -->
+    <section class="section6">
+      <div class="container-section6">
+      <div class="swiper mySwiper3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="container-section6__img" src="assets/img/PNG/Insigth_1.png"/>
+          </div>
+          <div class="swiper-slide">
+            <img class="container-section6__img" src="assets/img/PNG/Insigth_2.png">
+          </div>
+          <div class="swiper-slide">
+            <img class="container-section6__img" src="assets/img/PNG/Insigth_3.png"/>
+          </div>
+          <div class="swiper-slide">
+            <img class="container-section6__img" src="assets/img/PNG/Insigth_4.png"/>
+          </div>
+        </div>
+      <div class="swiper-scrollbar"></div>
+      <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--Seccion Clientes -->
+    <section class="section7">
+    <div class="container-section7">
+        <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img style=""  class="container-section7__img" src="assets/img/PNG/Logo_colgate_1.png"/>
+          </div>
+          <div class="swiper-slide">
+            <img style="" class="container-section7__img" src="assets/img/PNG/Logo_DHL_2.png">
+          </div>
+          <div class="swiper-slide">
+            <img style="width:74%;" class="container-section7__img" src="assets/img/PNG/Logo_chedraui_3.png"/>
+          </div>
+          <div class="swiper-slide">
+            <img  style="width:74%;" class="container-section7__img" src="assets/img/PNG/Logo_colgate_palmolive 3.png"/>
+          </div>
+          <div class="swiper-slide">
+            <img style="" class="container-section7__img" src="assets/img/PNG/Logo_purina_2.png"/>
+          </div>  
+          <div class="swiper-slide">
+            <img style="" class="container-section7__img" src="assets/img/PNG/Logo_Kimberly_2.png">
+          </div>  
+        </div>
+      <div class="swiper-scrollbar"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+      </div>
+    </section>
    </main>
 <?php include('template/footer.php') ?>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="assets/js/slider.js"></script>
+
 </body>
-</html>
