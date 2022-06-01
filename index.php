@@ -10,8 +10,12 @@
          <button class="container-seccion1__button">Contactanos</button>
 
          <div class="section1__buttons">
-             <img class="section1__buttons__img" src="assets/img/PNG/Logo_Blanco_Linkedin.png" alt="logo1">
-             <img class="section1__buttons__img"  src="assets/img/PNG/Logo_Blanco_Facebok.png" alt="logo2">
+            <a href="https://www.linkedin.com/company/corsa-m%C3%A9xico">
+              <img class="section1__buttons__img" src="assets/img/PNG/Logo_Blanco_Linkedin.png" alt="logo1">
+            </a>
+            <a href="https://www.facebook.com/coorsamexico">
+              <img class="section1__buttons__img"  src="assets/img/PNG/Logo_Blanco_Facebok.png" alt="logo2">
+            </a>
          </div>
 
          <div class="section1__button">

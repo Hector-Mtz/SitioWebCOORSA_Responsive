@@ -1,3 +1,8 @@
+:root{
+  --letras:#424242;
+  --titulos:#1b3c80;;
+}
+
 /*Menu*/
 body {
     margin: 0;
@@ -14,7 +19,7 @@ body {
 
   
   .header {
-    background-image: url('../img/JPG/Header.jpg');
+   /* background-image: url('../img/JPG/Header.jpg');*/
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -221,7 +226,7 @@ body {
 }
 
 .container-seccion2__texto2{
-    color: midnightblue;
+  color: var(--titulos)
 }
 
 /*Seccion 2*/
@@ -267,7 +272,7 @@ body {
 }
 
 .container-section5__titulo{
-  color:midnightblue; 
+  color: var(--titulos);
   font-size: 2rem;
   margin-left: 9rem;
   margin-top: 0.5rem;
@@ -307,39 +312,45 @@ body {
 
 .section1--conocenos__titulo{
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 1/2;
   text-align: center;
-  color: midnightblue;
+  color: var(--titulos);
+  margin-top: 11%;
+  margin-bottom: 0%;
 }
 
 .section1--conocenos__vision{
-  grid-row: 4/5;
+  grid-row: 3/4;
   text-align: center;
-  color: midnightblue;
+  color: var(--titulos);
 }
 
 .section1--conocenos__vision_text{
-  grid-row: 5/6;
+ grid-row: 4/6;
  text-align: justify;
  margin-left: 10%;
- font-size: 1rem;
+ margin-bottom: 0%;
+ font-size: 23px;
+ color: var(--letras);
 }
 
 .section1--conocenos__mision{
   grid-column: 3/4;
-  grid-row: 4/5;
+  grid-row: 3/4;
   text-align: center;
-  color: midnightblue;
+  color:var(--titulos);
   margin-right: 10%;
 
 }
 
 .section1--conocenos__mision_text{
   grid-column: 3/4;
-  grid-row: 5/6;
+  grid-row: 4/6;
   text-align: justify;
-  color: midnightblue;
+  color:var(--letras);
   margin-right: 10%;
+  margin-bottom: 0%;
+  font-size: 23px;
 }
 
 /*Seccion 2 Conocenos*/
@@ -347,22 +358,28 @@ body {
   margin-top: 2%;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+.section2--conocenos--container{
+  grid-row: 1/2;
 }
 
 .section2--conocenos__titulo1{
-  margin-left: 3%;
+  margin-left: 2%;
+  color: var(--letras);
 }
 
 .section2--conocenos__titulo2{
-  grid-row: 2/3;
-  color: midnightblue;
+
+  color: var(--titulos);
   margin-left: 2%;
 }
 
 .section2--conocenos__text{
-  grid-row: 3/4;
+  grid-row: 2/3;
   margin-left: 2%;
+  color: var(--letras);
 }
 
 
@@ -391,7 +408,23 @@ body {
 }
 
 .section4__title{
-  color:midnightblue ;
+  color: var(--titulos);
+}
+
+/*Seccion 5 Conocenos*/
+.section5--conocenos{
+  background-image: url('../img/JPG/Fondo\ mapa\ mexico.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:  2rem 2rem;
+}
+
+.section__text1{
+  color: white;
+}
+
+.section__text2{
+  color: white;
 }
 
 /*Estilos de Footer*/
