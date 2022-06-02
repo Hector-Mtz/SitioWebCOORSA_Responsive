@@ -24,12 +24,6 @@ am4core.useTheme(am4themes_animated);
     image: "./assets/img/PNG/Renato Ortiz.png",
     children: [
       {
-        name: "Patricia",
-        value:4,
-        collapsed:true,
-        image: "./assets/img/PNG/Patricia Palma.png"
-      },
-      {
         name: "Zamira Morales",
         value:4,
         collapsed:true,
@@ -43,9 +37,10 @@ am4core.useTheme(am4themes_animated);
         ]
       },
       {
-        name: "Vania Jimenez",
-        value: 4,
-        image: "./assets/img/PNG/Vania Jimenez.png"
+        name: "Patricia",
+        value:4,
+        collapsed:true,
+        image: "./assets/img/PNG/Patricia Palma.png"
       },
       {
         name: "Guadalupe Escamilla",
@@ -87,6 +82,11 @@ am4core.useTheme(am4themes_animated);
             ],
           }
         ]
+      },
+      {
+        name: "Vania Jimenez",
+        value: 4,
+        image: "./assets/img/PNG/Vania Jimenez.png"
       }
 
     ]
@@ -149,9 +149,6 @@ icon.verticalCenter = "middle";
 icon.width = 250;
 icon.height =  250;
 // icon.widthRatio = 0.9;
-
-
-
 
 organigramaSeries.centerStrength = 0.4;
 

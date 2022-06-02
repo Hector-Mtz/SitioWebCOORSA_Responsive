@@ -141,7 +141,6 @@
     </section>
    </main>
 <?php include('template/footer.php') ?>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="assets/js/slider.js"></script>
+
 
 </body>

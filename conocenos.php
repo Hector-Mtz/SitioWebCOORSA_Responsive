@@ -38,8 +38,8 @@
 
  <section class="section5--conocenos">
     <div class="section5__mapa" id="chartdiv"></div>
-    <h1 class="section__text1">LíDERES</h1>
-    <h2 class="section__text2">de Norte a Sur.</h2>
+    <h1 class="section5__text1">LíDERES</h1>
+    <h2 class="section5__text2">de Norte a Sur.</h2>
  </section>
 
  <?php include('template/footer.php') ?>

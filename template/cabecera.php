@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COORSA MEXICO</title>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <!--Slider-->
@@ -35,9 +39,9 @@
   <ul class="menu">
     <li><a href="index.php">Servicios</a></li>
     <li><a href="conocenos.php">Conócenos</a></li>
-    <li><a href="#">Detrás de</a></li>
+    <li><a href="detras_de.php">Detrás de</a></li>
     <li  style="margin-left:40rem ;">
-      <a href="#">Contacto</a>
+      <a href="contacto.php">Contacto</a>
     </li>
   </ul>
 </header>

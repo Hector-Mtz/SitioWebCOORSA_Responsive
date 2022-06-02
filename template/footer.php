@@ -1,12 +1,13 @@
 <footer class="footer">
-        <img class="footer__img" src="./assets/img/JPG/Footer.jpg" alt="">
+        <img class="footer__img" src="./assets/img/JPG/Footer_sin_flecha.jpg" alt="">
         <div class="menu-whats">
             <a href="https://wa.me/5214423857827">
                <img widht="65px" height="65px" class="imgWhats" src="assets/img/PNG/Logo Whatsaap.png" alt="whatsapp">
             </a>
         </div>
 </footer>
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/slider.js"></script>
 <!--BOOTSTRAP-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
@@ -27,6 +28,9 @@
      }
      });
 </script>
+
+<script src="assets/js/contacto.js"></script>
+<script src="assets/js/slider_detras.js"></script>
 
 <script src="https://www.amcharts.com/lib/4/core.js"></script>
 <script src="https://www.amcharts.com/lib/4/maps.js"></script>
