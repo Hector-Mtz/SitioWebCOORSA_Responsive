@@ -2,7 +2,7 @@
 <body>
  <?php include('template/cabecera2.php') ?>
 
- <section class="section1--conocenos">
+ <section class="section1--conocenos" id="seccion__inicio">
     <h1 class="section1--conocenos__titulo">CONÓCENOS</h1>
     <h2 class="section1--conocenos__vision">Nuestra visión</h2>
     <p class="section1--conocenos__vision_text">

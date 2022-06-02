@@ -1,7 +1,7 @@
 <body>
 <?php include('template/cabecera2.php') ?>
 
-  <section class="section1-detrasde">
+  <section class="section1-detrasde" id="seccion__inicio">
      <div class="section1-detrasde__textos">
         <h1 class="section1-detrasde__textos__text1">DETRÁS DE</h1>
         <h2 class="section1-detrasde__textos__text2">Coorsa</h2>

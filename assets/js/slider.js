@@ -22,9 +22,11 @@ var swiper = new Swiper(".mySwiper", {
         slidesPerGroup: 1,
       },
     },
+    /*
     scrollbar: {
       el: ".swiper-scrollbar",
-    },
+    },*/
+
     /*navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -60,9 +62,10 @@ breakpoints: {
     slidesPerGroup: 1,
   },
 },
-scrollbar: {
-  el: ".swiper-scrollbar",
-},
+   /*
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },*/
 /*navigation: {
   nextEl: ".swiper-button-next",
   prevEl: ".swiper-button-prev",
@@ -99,9 +102,10 @@ breakpoints: {
   slidesPerGroup: 1,
 },
 },
-scrollbar: {
-el: ".swiper-scrollbar",
-},
+   /*
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },*/
 /*navigation: {
 nextEl: ".swiper-button-next",
 prevEl: ".swiper-button-prev",

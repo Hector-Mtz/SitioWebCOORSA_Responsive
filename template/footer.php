@@ -1,10 +1,21 @@
+
 <footer class="footer">
-        <img class="footer__img" src="./assets/img/JPG/Footer_sin_flecha.jpg" alt="">
-        <div class="menu-whats">
-            <a href="https://wa.me/5214423857827">
-               <img widht="65px" height="65px" class="imgWhats" src="assets/img/PNG/Logo Whatsaap.png" alt="whatsapp">
-            </a>
-        </div>
+ <div class="footer-contenedor__img">
+   <a  href="#seccion__inicio"> 
+   <img class="footer__img" src="assets/img/PNG/circulo.png" alt="">
+     <div class="secction2__flechas">
+       <div class="chevron2"></div>
+       <div class="chevron2"></div>
+       <div class="chevron2"></div>
+     </div>
+   </a>
+ </div>
+
+  <div class="menu-whats">
+     <a href="https://wa.me/5214423857827">
+         <img widht="65px" height="65px" class="imgWhats" src="assets/img/PNG/Logo Whatsaap.png" alt="whatsapp">
+      </a>
+  </div>
 </footer>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="assets/js/slider.js"></script>

@@ -19,6 +19,13 @@
     <!--Slider Detras de-->
     <link rel="stylesheet" href="assets/css/style_slider_detras.css">
     
+    <!--Flechas CSS-->
+    <link rel="stylesheet" href="assets/css/flechas.css">
+    <link rel="stylesheet" href="assets/css/flechas_arriba.css">
+
+    <!--Texto animado-->
+    <link rel="stylesheet" href="assets/css/animacion_texto.css">
+
     <!--WhatsApp-->
     <link rel="stylesheet" href="assets/css/whatsapp.css">
     <!-- Bootstrap -->

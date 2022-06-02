@@ -14,7 +14,6 @@
 
     .swiper-slide img {
       display: block;
-      width: 100%;
     }
 
     @media only screen and (min-width: 769px) {

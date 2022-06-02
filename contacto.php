@@ -2,7 +2,7 @@
 <?php include('template/cabecera2.php') ?>
 
 
-<section class="section1-contacto">
+<section class="section1-contacto" id="seccion__inicio">
 
 </section>
 
