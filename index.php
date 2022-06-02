@@ -43,22 +43,23 @@
 
     <!--Seccion Carrusel Servicios -->
     <section class="section3" >
-      <div class="swiper mySwiper">
-         <div class="swiper-wrapper">
-           <div class="swiper-slide">
-             <img src="assets/img/JPG/Servicio 1.jpg" />
-           </div>
-           <div class="swiper-slide">
-             <img src="assets/img/JPG/Servicio 2.jpg"/>
-           </div>
-           <div class="swiper-slide">
-             <img src="assets/img/JPG/Servicio 3.jpg" />
+     <div class="container-section3">
+       <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/img/JPG/Servicio 1.jpg" />
             </div>
-          <div class="swiper-slide">
-             <img src="assets/img/JPG/Servicio 4.jpg"/>
-           </div>
+            <div class="swiper-slide">
+              <img src="assets/img/JPG/Servicio 2.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/JPG/Servicio 3.jpg" />
+             </div>
            <div class="swiper-slide">
-             <img src="assets/img/JPG/Servicio 5.jpg"/>
+              <img src="assets/img/JPG/Servicio 4.jpg"/>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/JPG/Servicio 5.jpg"/>
            </div>
            <div class="swiper-slide">
              <img src="assets/img/JPG/Servicio 6.jpg"/>
@@ -72,9 +73,10 @@
            <div class="swiper-slide">
              <img src="assets/img/JPG/Servicio 9 .jpg"/>
            </div>
-       </div>
-       <div class="swiper-scrollbar"></div>
-       <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+        <div class="swiper-pagination"></div>
+      </div>
      </div>
     </section>
 
