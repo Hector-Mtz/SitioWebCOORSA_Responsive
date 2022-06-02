@@ -41,7 +41,7 @@
      </section>
 
 
-    <!--Seccion Carrusel -->
+    <!--Seccion Carrusel Servicios -->
     <section class="section3" >
       <div class="swiper mySwiper">
          <div class="swiper-wrapper">
