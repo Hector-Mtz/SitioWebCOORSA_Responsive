@@ -28,8 +28,7 @@
             <img src="./assets/img/JPG/Detras de 35� opacidad (3).jpg" alt="">
         </div>
 	</div>
-	<div class="swiper-pagination"></div>
-  </div>
+
 </section>
 
 <section class="section4-detrasde">
