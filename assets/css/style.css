@@ -17,6 +17,9 @@ body {
   
   /* header */
 
+  p{
+    font-family: var(--fuentePrincipal);
+  }
 
   .header {
    /* background-image: url('../img/JPG/Header.jpg');*/
@@ -219,7 +222,7 @@ body {
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
     background-image: url('../img/JPG/Fondo_texto_conocenos.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding:  2rem 0;
 }
@@ -231,16 +234,30 @@ body {
 }
 
 .container-seccion2__texto1{
-    color:slategray;
+    color:var(--letras);
+    font-family: var(--fuentePrincipal);
 }
 
 .container-seccion2__texto2{
-  color: var(--titulos)
+  color: var(--titulos);
+  font-family: var(--fuentePrincipal);
 }
 
 /*Seccion 3*/
 .section3{
-  
+
+}
+
+.container-section3__img
+{
+  height: 80%;
+}
+
+.info__text{
+  font-family: var(--fuentePrincipal);
+  color: white;
+  font-size: 150% ;
+  margin-left: 18%;
 }
 
 /*Seccion 4*/
@@ -279,9 +296,9 @@ body {
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(3,1fr);
   background-image:url('../img/JPG/Fondo_Insigths.jpg'); 
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding:  2rem 3rem;
+  padding:  1rem 0rem;
   width: 100%;
 }
 
@@ -295,11 +312,14 @@ body {
   color: var(--titulos);
   font-size: 2rem;
   margin-left: 9rem;
-  margin-top: 0.5rem;
+  margin-top: 0%;
+  font-family: var(--fuentePrincipal);
 }
 
 .container-section5__text{
-  margin-left: 7.6rem;
+  margin-left: 5rem;
+  color: var(--letras);
+  font-family: var(--fuentePrincipal);
 }
 
 /*Seccion 6*/
@@ -335,7 +355,7 @@ body {
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(6,1fr);
     background-image: url('../img/JPG/Misión\ y\ vision.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding:  1rem 0;
 }
@@ -345,14 +365,17 @@ body {
   grid-row: 1/2;
   text-align: center;
   color: var(--titulos);
-  margin-top: 11%;
+  margin-top: 14%;
+  
   margin-bottom: 0%;
+  font-family: var(--fuentePrincipal);  
 }
 
 .section1--conocenos__vision{
   grid-row: 3/4;
   text-align: center;
   color: var(--titulos);
+  font-family: var(--fuentePrincipal);
 }
 
 .section1--conocenos__vision_text{
@@ -362,6 +385,7 @@ body {
  margin-bottom: 0%;
  font-size: 23px;
  color: var(--letras);
+ font-family: var(--fuentePrincipal);
 }
 
 .section1--conocenos__mision{
@@ -369,8 +393,8 @@ body {
   grid-row: 3/4;
   text-align: center;
   color:var(--titulos);
-  margin-right: 10%;
-
+  margin-right: 15%;
+  font-family: var(--fuentePrincipal);
 }
 
 .section1--conocenos__mision_text{
@@ -381,7 +405,9 @@ body {
   margin-right: 10%;
   margin-bottom: 0%;
   font-size: 23px;
+  font-family: var(--fuentePrincipal);
 }
+
 
 /*Seccion 2 Conocenos*/
 .section2--conocenos{
@@ -398,18 +424,21 @@ body {
 .section2--conocenos__titulo1{
   margin-left: 2%;
   color: var(--letras);
+  font-family: var(--fuentePrincipal);
 }
 
 .section2--conocenos__titulo2{
 
   color: var(--titulos);
   margin-left: 2%;
+  font-family: var(--fuentePrincipal);
 }
 
 .section2--conocenos__text{
   grid-row: 2/3;
   margin-left: 2%;
   color: var(--letras);
+  font-family: var(--fuentePrincipal);
 }
 
 
@@ -420,12 +449,13 @@ body {
  width: 100%;
 }
 
+
 /*Seccion 4 Conocenos*/
 .section4--conocenos{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(2,1fr);
-  background-image: url('../img/JPG/Misión\ y\ vision.jpg');
+  background-image: url('../img/JPG/conocenos.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding:  1rem 0;
@@ -434,11 +464,17 @@ body {
 .section4--conocenos__conteiner{
   grid-row: 2/3;
   text-align: justify;
-  margin-left: 62%;
+  margin-left: 60%;
+}
+
+.section4__text{
+  font-family: var(--fuentePrincipal);
+  color: var(--letras);
 }
 
 .section4__title{
   color: var(--titulos);
+  font-family: var(--fuentePrincipal);
 }
 
 /*Seccion 5 Conocenos*/
@@ -451,10 +487,12 @@ body {
 
 .section5__text1{
   color: white;
+  font-family: var(--fuentePrincipal);
 }
 
 .section5__text2{
   color: white;
+  font-family: var(--fuentePrincipal);
 }
 
 /*Detras de */
@@ -545,6 +583,31 @@ body {
   padding:  1rem 0;
 }
 
+.section2-contacto__contenedor_text1{
+  font-family: var(--fuentePrincipal);
+  margin-top: 12%;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  color: white;
+}
+
+.section2-contacto__contenedor_text2{
+  font-family: var(--fuentePrincipal);
+  color: white;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.section2-contacto__text3{
+  font-family: var(--fuentePrincipal);
+  color: white;
+  grid-column: 4/6 ;
+  grid-row: 2/3;
+  margin-left: 43%;
+  margin-bottom: 10%;
+
+}
+
 .section2-contacto__contenedor{
   margin-top: 15%;
   margin-left: 2%;
@@ -565,6 +628,8 @@ body {
   width: 55rem;
   height: 55rem;
 }
+
+
 
 /* Section 3 Contacto */
 .section3-contacto{
@@ -696,3 +761,97 @@ body {
   margin-bottom: -2%;
 }
 
+
+
+
+
+@keyframes bounce{
+  0%,to{transform:translateY(-25%);
+  animation-timing-function:cubic-bezier(.8,0,1,1)}
+  50%{transform:none;animation-timing-function:cubic-bezier(0,0,.2,1)}}
+
+.w-40{
+  width: 40%;
+}
+.animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}
+@keyframes pulse
+{50%{opacity:.5}
+}
+
+.absolute-top{
+  position: absolute;
+  top: 1.3rem;
+  left: 2rem;
+}
+
+.absolute-bottom {
+  position: absolute;
+  bottom: -1.3rem;
+  left: 2rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.absolute-center{
+  position: absolute;
+  top: 65%;
+  left: 48%;
+}
+
+.line-height-1 {
+  line-height: 1.3rem;
+}
+
+@keyframes ping{
+  75%,
+  to{transform:scale(2);
+      opacity:0}
+  }
+.animate-ping{
+  animation:ping 1s cubic-bezier(0,0,.2,1) infinite
+}
+
+.circle-red{
+  top:35%;
+  left: 32%;
+  width: 34px; 
+  height: 34px;
+  border-radius: 100%;
+  background-color: #e1576e;
+}
+
+.popover{
+  border-radius: 15px!important;
+  background-color:#e8435e!important;
+  padding-top: 15px;
+}
+.bs-popover-auto[x-placement^=top] .arrow::after, .bs-popover-top .arrow::after {
+  bottom: 1px;
+  border-top-color: #e8435e!important;
+}
+.text-poper{
+  color: white;
+  font-size: 11pt;
+  line-height: 15px;
+}
+
+.form-control-inline{
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ced4da;    
+}
+
+.form-control-inline:focus{
+  outline: none;
+  border-color: #1b3c80;
+}

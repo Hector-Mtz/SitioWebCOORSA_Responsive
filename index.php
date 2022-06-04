@@ -8,7 +8,7 @@
          </div>
 
          <a href="contacto.php"  class="container-seccion1__button">
-            Contactanos
+           <p  style="margin-top: 1.5%;">Contáctanos</p>
          </a>
 
          <div class="section1__buttons">
@@ -35,8 +35,8 @@
      <!--Seccion de card ofertas-->
      <section id="seccion__servicios" class="section2">
         <div class="container-seccion2">
-            <h4 class="container-seccion2__texto1">Conoce lo que tenemos para </h>
-            <h3 class="container-seccion2__texto2">OFRECERTE</h3>
+            <h3 class="container-seccion2__texto1">Conoce lo que tenemos para </h3>
+            <h2 class="container-seccion2__texto2">OFRECERTE</h4>
         </div>
      </section>
 
@@ -47,31 +47,99 @@
        <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="assets/img/JPG/Servicio 1.jpg" />
+              <div class="card" style="height: 80%;">
+                 <img class="container-section3__img" src="assets/img/JPG/Servicio 1.jpg" />
+                 <div class="info">
+                    <h2 class="info__text">
+                      Evitar rechazos es el objetivo
+                    </h2>
+                 </div>
+               </div> 
             </div>
             <div class="swiper-slide">
-              <img src="assets/img/JPG/Servicio 2.jpg"/>
+              <div class="card" style="height: 80%;">
+                <img  class="container-section3__img" src="assets/img/JPG/Servicio 2.jpg"/>
+                <div class="info">
+                    <h2 class="info__text">
+                      <strong>Mano de obra</strong> certificada para cargas y descargas.
+                    </h2>
+                 </div>
+              </div>
             </div>
             <div class="swiper-slide">
-              <img src="assets/img/JPG/Servicio 3.jpg" />
+             <div class="card" style="height: 80%;">
+                <img  class="container-section3__img" src="assets/img/JPG/Servicio 3.jpg" />
+                <div class="info">
+                  <h2 class="info__text">
+                      Un <strong>sistema innovador</strong> a la medida de cada cliente
+                      (handhels, impresoras portatiles y códigos QR).
+                  </h2>
+                </div>
              </div>
+           </div>
            <div class="swiper-slide">
-              <img src="assets/img/JPG/Servicio 4.jpg"/>
+             <div class="card" style="height: 80%;">
+               <img  class="container-section3__img" src="assets/img/JPG/Servicio 4.jpg"/>
+               <div class="info">
+                  <h2 class="info__text">
+                      Un <strong>patio eficiente y ordenado</strong>
+                      (3 veces mas eficientes que un tracto normal).
+                  </h2>
+                </div>
+             </div>
             </div>
             <div class="swiper-slide">
-              <img src="assets/img/JPG/Servicio 5.jpg"/>
+             <div class="card" style="height: 80%;">
+                <img  class="container-section3__img" src="assets/img/JPG/Servicio 5.jpg"/>
+                <div class="info">
+                  <h2 class="info__text">
+                      <strong>Camionetas de 1  y 1.5 toneladas</strong>
+                      (Last Mile y Line-haul ecommerce).
+                  </h2>
+                </div>
+             </div>
            </div>
            <div class="swiper-slide">
-             <img src="assets/img/JPG/Servicio 6.jpg"/>
+             <div class="card" style="height: 80%;">
+               <img  class="container-section3__img" src="assets/img/JPG/Servicio 6.jpg"/>
+               <div class="info">
+                  <h2 class="info__text">
+                      <strong>1500 mts Tu mercancía está segura.</strong> QUERÉTARO, TULTITLÁN EDO. DE MÉXICO.
+                  </h2>
+                </div>
+             </div>
            </div>
            <div class="swiper-slide">
-             <img src="assets/img/JPG/Servicio 7.jpg"/>
+             <div class="card" style="height: 80%;">
+               <img  class="container-section3__img" src="assets/img/JPG/Servicio 7.jpg"/>
+               <div class="info">
+                  <h2 class="info__text">
+                      <strong>Diseñado</strong> especialmente <strong>para operadores.</strong>
+                  </h2>
+                </div>
+             </div>
            </div>
            <div class="swiper-slide">
-             <img src="assets/img/JPG/Servicio 8 .jpg"/>
+             <div class="card" style="height: 80%;">
+               <img  class="container-section3__img" src="assets/img/JPG/Servicio 8 .jpg"/>
+               <div class="info">
+                  <h2 class="info__text">
+                     Ten el <strong>control de</strong> tus 
+                     <strong>cuentas con</strong> una <strong>preliquidación.</strong>
+                  </h2>
+                </div>
+             </div>
            </div>
            <div class="swiper-slide">
-             <img src="assets/img/JPG/Servicio 9 .jpg"/>
+             <div class="card" style="height: 80%;">
+               <img  class="container-section3__img" src="assets/img/JPG/Servicio 9 .jpg"/>
+               <div class="info">
+                  <h2 class="info__text">
+                     <strong>Abastecemos</strong> a tu sitio 
+                     <strong> de los insumos de mayor uso.</strong>
+                  </h2>
+                </div>
+             </div>
            </div>
         </div>
         <div class="swiper-scrollbar"></div>
@@ -136,8 +204,8 @@
     <!--Seccion Insights -->
     <section class="section5">
       <div class="container-section5">
-         <h2 class="container-section5__titulo">INSIGHTS</h2>
-         <h5 class="container-section5__text">Soluciones efectivas.</h5>
+         <h1 class="container-section5__titulo">INSIGHTS</h1>
+         <h3 class="container-section5__text">Soluciones efectivas.</h3>
       </div>
     </section>
 

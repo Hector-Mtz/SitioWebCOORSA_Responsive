@@ -22,6 +22,9 @@
      <!--Texto animado-->
      <link rel="stylesheet" href="assets/css/animacion_texto.css">
 
+     <!--Animacion IMG-->
+     <link rel="stylesheet" href="assets/css/style_img.css">
+
     <!--WhatsApp-->
     <link rel="stylesheet" href="assets/css/whatsapp.css">
 

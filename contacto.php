@@ -8,17 +8,18 @@
 
 <section class="section2-contacto">
     <div class="section2-contacto__contenedor">
-      <h1>UBÍCANOS</h1>
+      <h1 class="section2-contacto__contenedor_text1">UBÍCANOS</h1>
       <br>
-      <h2>y ponte  en contacto.</h2>
+      <h2 class="section2-contacto__contenedor_text2">y ponte en contacto.</h2>
     </div>
    <img class="section2-contacto__img" src="./assets/img/PNG/MAPA QRO.png" alt="">
-   <div class="absolute-center section-contacto__iconmap" data-container="body">
+   <div class="absolute-center" data-container="body">
       <a
-         id="mapPopover"
-         class="animate-ping circle-red position-absolute"></a>
-         <img src="./assets/img/PNG/LOGO COORSA MAPA.png" alt="icon_map" width="115" height="120" >
-    </div>
+         id="mapPopover" class="animate-ping circle-red position-absolute"
+        ></a>
+      <img src="assets/img/PNG/LOGO COORSA MAPA.PNG" alt="icon_map" width="100px" height="106px">
+   </div>
+   <h1 class="section2-contacto__text3">Querétaro</h1>
 </section>
 
 <section class="section3-contacto">
