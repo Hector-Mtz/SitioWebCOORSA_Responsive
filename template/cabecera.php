@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COORSA MEXICO</title>
+     <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,6 +39,7 @@
      transition: 0.3s;
    }
    </style>    
+
 </head>
 <header class="header" id="header">
   <a href="index.php" class="logo">

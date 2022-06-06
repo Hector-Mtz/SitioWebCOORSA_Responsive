@@ -17,8 +17,12 @@
     <link rel="stylesheet" href="assets/css/style_Slider.css">
   
     <!--Slider Detras de-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/style_slider_detras.css">
     
+    <!--FancyBox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
     <!--Flechas CSS-->
     <link rel="stylesheet" href="assets/css/flechas.css">
     <link rel="stylesheet" href="assets/css/flechas_arriba.css">
