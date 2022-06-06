@@ -1,6 +1,6 @@
 var swiper = new Swiper(".swiper-container", {
   autoplay: {
-   delay: 1000,
+   delay: 2500,
  },
  clickable:'true',
  slidesPerGroup:1,
