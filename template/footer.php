@@ -1,6 +1,28 @@
 
 <footer class="footer">
- <div class="footer-contenedor__img">
+  <div class="footer__contacto">
+    <h2>contacto</h2>
+    <a class="footer_text" href="mailto:contacto@coorsamexico.com" style="text-decoration:none;">
+      <p >contacto@coorsamexico.com</p>
+    </a>
+    <a  class="footer_text" href="tel:4423857827" class=""  style="text-decoration:none;">Tel:. 442-385-7827</a>
+  </div>
+
+  <div class="footer__redes">
+     <div  style="float: left ;">
+       <a  class="" href="https://www.linkedin.com/company/corsa-m%C3%A9xico">
+         <img class="footer_img" src="./assets/img/PNG/Logo Linkedin Gris.png" alt="">
+       </a>
+     </div>
+
+     <div style="float: left ;">
+       <a href="https://www.facebook.com/coorsamexico">
+         <img class="footer_img" src="./assets/img/PNG/Logo facebook gris.png" alt="">
+       </a>
+     </div>
+  </div>
+
+  <div class="footer-contenedor__img">
    <a  href="#seccion__inicio"> 
    <img class="footer__img" src="assets/img/PNG/circulo.png" alt="">
      <div class="secction2__flechas">
@@ -9,7 +31,7 @@
        <div class="chevron2"></div>
      </div>
    </a>
- </div>
+  </div>
 
   <div class="menu-whats">
      <a href="https://wa.me/5214423857827">
