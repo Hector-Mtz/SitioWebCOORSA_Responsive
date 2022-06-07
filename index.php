@@ -4,7 +4,12 @@
      <!--Seccion de inicio-->
      <section class="section1" id="seccion__inicio">
          <div class="container-seccion1">
-             <h1 class="container-seccion1__texto">Ideamos soluciones innovadoras de logística para tí y tu empresa.</h1>
+             <h1 class="container-seccion1__texto">
+               Ideamos 
+               <strong>soluciones innovadoras</strong> 
+               de <br> logística 
+               <strong>para tí y tu empresa</strong> .
+            </h1>
          </div>
 
          <a href="contacto.php"  class="container-seccion1__button">
@@ -12,12 +17,16 @@
          </a>
 
          <div class="section1__buttons">
-            <a href="https://www.linkedin.com/company/corsa-m%C3%A9xico">
-              <img class="section1__buttons__img" src="assets/img/PNG/Logo_Blanco_Linkedin.png" alt="logo1">
-            </a>
-            <a href="https://www.facebook.com/coorsamexico">
-              <img class="section1__buttons__img"  src="assets/img/PNG/Logo_Blanco_Facebok.png" alt="logo2">
-            </a>
+           <div style="float:left ;">
+             <a href="https://www.linkedin.com/company/corsa-m%C3%A9xico">
+                <img class="section1__buttons__img" src="assets/img/PNG/Logo_Blanco_Linkedin.png" alt="logo1">
+             </a>
+           </div>
+           <div style="float:left ;">
+             <a href="https://www.facebook.com/coorsamexico">
+               <img class="section1__buttons__img"  src="assets/img/PNG/Logo_Blanco_Facebok.png" alt="logo2">
+              </a>
+           </div>
          </div>
 
          <div class="section1__button">
@@ -36,7 +45,9 @@
      <section id="seccion__servicios" class="section2">
         <div class="container-seccion2">
             <h3 class="container-seccion2__texto1">Conoce lo que tenemos para </h3>
-            <h2 class="container-seccion2__texto2">OFRECERTE</h4>
+            <h2 class="container-seccion2__texto2">
+              <strong>OFRECERTE</strong>
+            </h2>
         </div>
      </section>
 
@@ -212,8 +223,6 @@
     <!--Seccion Insigths IMGS -->
     <section class="section6">
       <div class="container-section6">
-      <div class="swiper mySwiper3">
-        <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img class="container-section6__img" src="assets/img/PNG/Insigth_1.png"/>
           </div>
@@ -226,9 +235,6 @@
           <div class="swiper-slide">
             <img class="container-section6__img" src="assets/img/PNG/Insigth_4.png"/>
           </div>
-        </div>
-      <div class="swiper-scrollbar"></div>
-      <div class="swiper-pagination"></div>
       </div>
     </section>
 
