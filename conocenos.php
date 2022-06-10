@@ -2,6 +2,9 @@
 <body>
  <?php include('template/cabecera2.php') ?>
 
+ <section class="section0">
+ </section>
+
  <section class="section1--conocenos" id="seccion__inicio">
     <h1 class="section1--conocenos__titulo text"> 
       <span>C</span>

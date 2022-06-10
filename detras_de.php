@@ -1,3 +1,4 @@
+<
 <body>
 <?php include('template/cabecera2.php') ?>
 

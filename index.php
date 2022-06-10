@@ -45,9 +45,9 @@
      <section id="seccion__servicios" class="section2">
         <div class="container-seccion2">
             <h3 class="container-seccion2__texto1">Conoce lo que tenemos para </h3>
-            <h2 class="container-seccion2__texto2">
+            <h1 class="container-seccion2__texto2">
               <strong>OFRECERTE</strong>
-            </h2>
+            </h1>
         </div>
      </section>
 
@@ -162,7 +162,7 @@
     <!--Seccion Años -->
     <section class="section4">
       <div class="container-section4">
-         <p class="container-section4__text text">
+         <p class="container-section4__text">
              <span>Somos</span>
              <span> un </span>
              <span> equipo </span>
@@ -223,16 +223,16 @@
     <!--Seccion Insigths IMGS -->
     <section class="section6">
       <div class="container-section6">
-          <div class="swiper-slide">
+          <div class="container-section6__div">
             <img class="container-section6__img" src="assets/img/PNG/Insigth_1.png"/>
           </div>
-          <div class="swiper-slide">
+          <div class="container-section6__div">
             <img class="container-section6__img" src="assets/img/PNG/Insigth_2.png">
           </div>
-          <div class="swiper-slide">
+          <div class="container-section6__div">
             <img class="container-section6__img" src="assets/img/PNG/Insigth_3.png"/>
           </div>
-          <div class="swiper-slide">
+          <div class="container-section6__div">
             <img class="container-section6__img" src="assets/img/PNG/Insigth_4.png"/>
           </div>
       </div>
@@ -244,22 +244,28 @@
         <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img  class="container-section7__img" src="assets/img/PNG/Logo_colgate_1.png"/>
+            <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_CHEDRAUI.png"/>
           </div>
           <div class="swiper-slide">
-            <img  class="container-section7__img" src="assets/img/PNG/Logo_DHL_2.png">
+            <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_COLGATE.png">
           </div>
           <div class="swiper-slide">
-            <img  class="container-section7__img" src="assets/img/PNG/Logo_chedraui_3.png"/>
+            <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_DHL.png"/>
           </div>
           <div class="swiper-slide">
-            <img   class="container-section7__img" src="assets/img/PNG/Logo_colgate_palmolive 3.png"/>
+            <img   class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_KIMBERLY.png"/>
           </div>
           <div class="swiper-slide">
-            <img  class="container-section7__img" src="assets/img/PNG/Logo_purina_2.png"/>
+            <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_PURINA.png"/>
           </div>  
           <div class="swiper-slide">
-            <img  class="container-section7__img" src="assets/img/PNG/Logo_Kimberly_2.png">
+            <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_SORIANA.png">
+          </div>  
+          <div class="swiper-slide">
+            <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_UNILEVER.png">
+          </div>  
+          <div class="swiper-slide">
+            <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_WALMART.png">
           </div>  
         </div>
       <div class="swiper-scrollbar"></div>

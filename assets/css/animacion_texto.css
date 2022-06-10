@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 .text{
-  font-family: "Montserrat Medium";
+  font-family: "Montserrat";
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }

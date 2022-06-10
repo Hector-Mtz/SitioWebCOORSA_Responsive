@@ -211,7 +211,8 @@ body {
 .secction1__flechas{
   grid-row: 5/6;
   grid-column: 2 / 3;
-  margin-left: 42.3%;
+  display: flex;
+  
 }
 
 .section1__button__img{
@@ -284,14 +285,15 @@ body {
     margin-top: 20%;
     margin-right: 12%;
     margin-left: 12%;
-    font-family: var(--fuentePrincipal);
+
     color: var(--letras);
 }
 
 .container-section4__text{
     font-size: 21.5px;
     text-align: justify;
-    font-family: var(--fuentePrincipal);
+    font-family:var(--fuentePrincipal);
+    
 }
 
 
@@ -310,7 +312,8 @@ body {
 .container-section5{
   grid-column: 2 / 3;
   grid-row: 3 / 4;
-  align-content: center;
+  text-align: center;
+  background-color: white;
 }
 
 .container-section5__titulo{
@@ -322,7 +325,6 @@ body {
 }
 
 .container-section5__text{
-  margin-left: 5rem;
   color: var(--letras);
   font-family: var(--fuentePrincipal);
 }
@@ -336,10 +338,15 @@ body {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(1,1fr);
+  background-color: white;
+}
+
+.container-section6__div{
+  margin-left: 10%;
 }
 
 .container-section6__img{
-  width: 65%;
+  width: 85%;
   height: 100%;
 }
 
@@ -355,20 +362,29 @@ body {
 }
 
 .container-section7__img{
-  width: 70%;
+  width: 80%;
   height: 50%;
 }
 
 
 /*Seccion 1 Conocenos*/
+.section0{
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-column:repeat(2,1fr);
+  height: 10%;
+}
+
 .section1--conocenos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(6,1fr);
-    background-image: url('../img/JPG/Misión\ y\ vision.jpg');
+    background-image: url('../img/JPG/Misión_y_vision.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding:  1rem 0;
+    background-position-y: 5%;
+    height: 100%;
+
 }
 
 .section1--conocenos__titulo{
@@ -376,8 +392,7 @@ body {
   grid-row: 1/2;
   text-align: center;
   color: var(--titulos);
-  margin-top: 14%;
-  
+  margin-top: 12%;
   margin-bottom: 0%;
   font-family: var(--fuentePrincipal);  
 }
